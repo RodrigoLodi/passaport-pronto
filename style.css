@@ -1,0 +1,205 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+#logo {
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#search {
+    background-color: #e9ecef;
+}
+
+#search h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchForm .form-control {
+    border-radius: 0;
+    border: 2px solid #007bff;
+}
+
+#searchForm .btn-primary {
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Resultados */
+#resultados h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+#resultsContainer h3 {
+    margin-bottom: 20px;
+}
+
+#resultsContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resultsContainer ul li {
+    background: #f8f9fa;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+#destinos h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+.destinos-titulo {
+    color: navy;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.carousel {
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-item img {
+    max-height: 33vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.div-button-reservar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-reservar {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+}
+
+.button-reservar:hover {
+    background-color: #0056b3;
+}
+
+#itinerarios h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+.itinerario-titulo {
+    color: navy;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.itinerario-descricao {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.mapa {
+    width: 100%;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
